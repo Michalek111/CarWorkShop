@@ -1,0 +1,46 @@
+﻿@model About
+
+<h1 class="display-4 text-center mt-5">@Model.Title</h1>
+
+<div class="container text-center mt-4">
+    <p class="lead text-muted">
+        Welcome to our ASP.NET-based application that serves as a platform for automotive workshops.
+    </p>
+
+    <p>
+        This application allows users to browse available workshops, each offering a range of specialized services. Whether you're looking to change your tires, replace oil, or clean your vehicle, you can find the right workshop here. Additionally, registered users with the appropriate permissions can add their own workshops and list the services they offer.
+    </p>
+
+    <div class="row mt-5">
+        <div class="col-md-4">
+            <div class="card shadow-sm">
+                <div class="card-body">
+                    <h5 class="card-title">Browse Workshops</h5>
+                    <p class="card-text">Explore a wide selection of car workshops with diverse services to meet your vehicle's needs.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="card shadow-sm">
+                <div class="card-body">
+                    <h5 class="card-title">Add Your Workshop</h5>
+                    <p class="card-text">Owners can create their workshop profiles and provide details of their automotive services.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="card shadow-sm">
+                <div class="card-body">
+                    <h5 class="card-title">Available Services</h5>
+                    <p class="card-text">Services like tire changes, oil replacements, and car cleaning are just a few of the options you can offer or find.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="mt-5">
+        <a href="@Url.Action("Index", "CarWorkshop")" class="btn btn-primary btn-lg">Explore Workshops</a>
+    </div>
+</div>
