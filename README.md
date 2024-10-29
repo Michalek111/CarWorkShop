@@ -2,11 +2,6 @@
 
 CarWorkShop to aplikacja ASP.NET MVC stworzona, aby zarządzać warsztatami samochodowymi. Użytkownicy mogą przeglądać dostępne warsztaty, dodawać własne, a także zarządzać usługami oferowanymi przez poszczególne warsztaty, jak np. wymiana opon, wymiana oleju, czy czyszczenie samochodu.
 
-## Wymagania
-- .NET SDK 6.0 lub wyższy
-- SQL Server (lub kompatybilna baza danych)
-- Visual Studio 2022
-
 ## Instalacja
 1. Sklonuj repozytorium:
    git clone https://github.com/Michalek111/CarWorkShop.git
