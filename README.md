@@ -34,7 +34,7 @@ CarWorkShop to aplikacja ASP.NET MVC stworzona, aby zarządzać warsztatami samo
 - **FluentValidation** - Narzędzie do walidacji danych wejściowych.
 
 ## Konfiguracja użytkowników i ról
-- Warsztaty mogą być tworzone przez użytkowników posiadających rolę `Owner`. Aby przypisać rolę użytkownikowi, należy zaktualizować tabelę `AspNetUserRoles`.
+- Warsztaty mogą być tworzone przez użytkowników posiadających rolę `Owner`.
 - Usługi w warsztatach mogą być dodawane lub edytowane przez właściciela warsztatu lub użytkowników z rolą `Moderator`.
 
 
